@@ -1,6 +1,6 @@
 # TIL
+##### Blog : https://jongviet.tistory.com/
 ***
-### Blog : https://jongviet.tistory.com/
 
 ## Java
 ***
