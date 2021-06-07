@@ -1,9 +1,14 @@
-# TIL
+### TIL
 ##### Blog : https://jongviet.tistory.com/
 ***
 
-## Java
+#### Java
 ***
 
-## JavaScript
+#### JavaScript
 ***
+* Ajax
+
+#### Database
+***
+* MySQL
