@@ -2,6 +2,7 @@
 
 * 로그인 -> 회원가입 모드 변경
 
+```
 var ajaxOn = false;
 $("#join").on("click", function() {
 	$("input[name=nextSt]").val("join");
@@ -16,6 +17,7 @@ $("#join").on("click", function() {
 	$("input[name=pwd]").val("");
 	ajaxOn = true;
 });
+```
 
 
 * 회원가입 폼 비밀번호 일치 여부 및 공백 확인 -> submit 버튼 활성화 동적 처리
