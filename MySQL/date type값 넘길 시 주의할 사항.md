@@ -1,5 +1,5 @@
 * request를 타고 date type 형태로 넘어간 viewDate가 mapper에서 자꾸 인식되지 않는 에러가 나타났다.   
-* request를 태웠으면 분명히 string일 것이고, ctrl 단에서도 string으로 데이터를 받아서 service -> DAO -> Mapper로 넘겼는데...
+* request를 태웠으면 **분명히 string일 것이고, ctrl 단에서도 string으로 데이터를 받아서 service -> DAO -> Mapper로 넘겼는데...**
 * 하기와 같이 SQL문은 잘 전달된 것 같은데 자꾸 리턴 값이 출력되지 않았다.   
 
 ```
