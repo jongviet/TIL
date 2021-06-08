@@ -11,7 +11,7 @@ and s.viewTime = 2 and s.moviNum = 3004 and s2.usable_seat = "N";
 
 * MySQL에서 타이핑해보니 **Truncated incorrect DOUBLE value: '2021-06-16'** 라는 에러문구가 뜬다.  
 * 현재 viewDate가 column에 varchar 형태로 잡혀있는데 날짜 형태로 전달되어서 인식을 못한 것으로 보인다.   
-* 하단과 같이 **""로 감싸주니 DB에서 잘 작동하였고, mapper 파일에도 같은 조치를 하니 잘 작동하는 모습이다. **
+* 하단과 같이 **""로 감싸주니 DB에서 잘 작동하였고, mapper 파일에도 같은 조치를 하니 잘 작동하는 모습이다.**
 
 ```
 select distinct * from schedule s inner join seat s2 on s.moviNum = s2.moviNum where s.viewDate ="2021-06-16" and s.viewTime = 2 
