@@ -22,7 +22,7 @@ $("#join").on("click", function() {
 
 * 회원가입 폼 비밀번호 일치 여부 및 공백 확인 -> submit 버튼 활성화 동적 처리
 
-
+```
 $(".chk").on("input", function() {
 	let pwd = $("input[name=pwd]").val();
 	let pwdCfm = $("input[name=pwdCfm]").val();
@@ -36,11 +36,11 @@ $(".chk").on("input", function() {
 		$("#joinBtn").attr("class", "btn btn-dark");
 	}
 });
-
+```
 
 * 회원가입 폼 이메일 중복 체크
 
-
+```
 $(function() {
 	$("#email").on("blur", function() {
 		if (ajaxOn) {
@@ -63,4 +63,4 @@ $(function() {
 		}
 	});
 });
-
+```
