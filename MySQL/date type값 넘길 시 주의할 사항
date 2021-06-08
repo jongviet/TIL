@@ -6,7 +6,7 @@
 
 ==> Preparing: select distinct seatNum from schedule s inner join seat s2 on s.moviNum = s2.moviNum where s.viewDate = 2021-06-16 and s.viewTime = 2 and s.moviNum = 3004 and s2.usable_seat = "N"; 
 ==> Parameters: 
-###Total: 0 !?!?
+==> Total: 0 !?!?
 
 
 -MySQL에서 타이핑해보니 Truncated incorrect DOUBLE value: '2021-06-16' 라는 에러문구가 뜬다. 
@@ -26,6 +26,6 @@ Parameters: Columns: seatNum
 ==> Row: 3
 ==> Row: 22
 ==> Row: 23
-### Total: 4
+~~ ==> Total: 4
 
 -앞으로 date type으로 input을 받을 때는 이 부분 꼭 주의하도록 해야겠다.
