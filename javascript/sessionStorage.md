@@ -4,9 +4,9 @@
 
 ![image](https://user-images.githubusercontent.com/62887609/121894799-852cf980-cd5a-11eb-8fca-81e68a930b8d.png)
 
-* scheduleNum, cfmNum 등으로 인해 페이지가 반드시 리로드 되어야 하는 상황이라 어떻게 값을 넘길지 고민이었다.
+* 하지만 scheduleNum, cfmNum 등으로 인해 페이지가 반드시 리로드 되어야 하는 상황이라 어떻게 값을 넘길지 고민이었다.
 * 같이 프로젝트를 진행하시는 분이 sessionStorage를 추천해주었고 사용 해보기로 했다.
-* 좌석 예약 후, 추가적인 예약이 필요할 시 confirm으로 사용자의 의사를 접수 받는다.
+* 일차적으로 좌석 예약 후, 추가적인 예약이 필요할 시 confirm으로 사용자의 의사를 접수 받는다.
 
 ```
 function() {
