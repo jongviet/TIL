@@ -8,6 +8,7 @@
 #### JavaScript
 ***
 * Ajax
+* sessionStorage
 
 #### Database
 ***
