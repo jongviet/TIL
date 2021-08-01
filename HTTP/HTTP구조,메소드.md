@@ -9,28 +9,28 @@
 
 * 일반구조  
 
-시작라인  
-헤더  
-공백라인(CRLF)  
-바디  
+  시작라인  
+  헤더  
+  공백라인(CRLF)  
+  바디  
 
 
 * 요청메세지 구조  
 
-GET/search?a=b&c=d HTTP/1.1  
-Host: www~~  
-공백라인  
+  GET/search?a=b&c=d HTTP/1.1  
+  Host: www~~  
+  공백라인  
 
 
 
 * 응답메세지 구조  
 
-HTTP/1.1 200 OK  
-Content-type: text/html; charset=UTF-8; Content-length: 3423  
-공백라인  
-<html>  
-<body></body>  
-</html>  
+  HTTP/1.1 200 OK  
+  Content-type: text/html; charset=UTF-8; Content-length: 3423  
+  공백라인  
+  <html>  
+  <body></body>  
+  </html>  
 
 
 #### HTTP 메소드
@@ -48,13 +48,13 @@ delete : 리소스 삭제
 head : get과 동일하지만 body를 제외하고 상태줄과 헤더만 반환
 
 
-1.get
+1. get
 -리소스 조회
 -서버에 전달하고 싶은 데이터는 query를 통해 전달
 -메시지 바디를 이용해서 데이터를 전달 할 수 있지만, 지원하지 않는 곳이 많아서 비권장.
 
 
-2.post
+2. post
 -메세지 바디를 통해서 서버로 요청 데이터 전달 / 서버는 요청 데이터 처리
 -주로 전달된 데이터로 신규 리소스 등록 or 프로세스 처리에 사용
 -HTML form으로 넘어온 데이터 처리 / 게시판 글쓰기, 댓글 달기 / 신규 회원가입, 신규 주문 생성 / 기존 자원에 데이터 추가
