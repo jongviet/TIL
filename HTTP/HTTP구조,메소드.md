@@ -7,7 +7,7 @@
 -단순하고 확장 가능함.
 
 
-*일반구조  
+* 일반구조  
 
 시작라인  
 헤더  
@@ -15,7 +15,7 @@
 바디  
 
 
-*요청메세지 구조  
+* 요청메세지 구조  
 
 GET/search?a=b&c=d HTTP/1.1  
 Host: www~~  
@@ -23,7 +23,7 @@ Host: www~~
 
 
 
-*응답메세지 구조  
+* 응답메세지 구조  
 
 HTTP/1.1 200 OK  
 Content-type: text/html; charset=UTF-8; Content-length: 3423  
