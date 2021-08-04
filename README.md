@@ -17,7 +17,11 @@
 
 #### HTTP
 ***
-* HTTP구조, HTTP메소드, HTTP메소드 속성....
+* TCP/IP, UDP, DNS, Stateless
+* HTTP 구조, 메소드, 속성
+* HTTP API
+* HTTP 상태코드
+* PRG, Redirection, header, cookie
 
 #### Etc
 ***
