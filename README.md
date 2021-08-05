@@ -22,6 +22,7 @@
 * HTTP API
 * HTTP 상태코드
 * PRG, Redirection, header, cookie
+* 검증, 조건부, 캐시
 
 #### Etc
 ***
