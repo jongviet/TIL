@@ -7,8 +7,10 @@
 
 #### JavaScript
 ***
+* node.js
+* react
 * Ajax
-* sessionStorage
+
 
 #### Database
 ***
